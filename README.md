@@ -20,4 +20,4 @@ Es el primer gran proyecto sin base, prácticamente se construye de cero.
 - **format.png**: ayudas de formato, como fuente, colores y tamaños.
 
 > [!WARNING]
-> El archivo gitignore no incluye la carpeta de imágenes, por lo que se subirán al repositorio.
+> El archivo gitignore no incluye archivos de imágenes, por lo que se subirán al repositorio.
