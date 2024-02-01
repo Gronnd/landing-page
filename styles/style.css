@@ -15,10 +15,6 @@
 
 /*CSS normal */
 
-body {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 article,
 aside,
@@ -69,12 +65,41 @@ h1 {
 
 /* aquí empiea el formto de la pagina de gronnd */
 
-header {
-    background-color: #1F2937;
-    padding: 20px;
+body{ background-color: #1F2937;}
+
+.main-wrapper {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+db-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+.db-wrapper {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.wrapper-g {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header {
+    padding: 20px;
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-links {
@@ -84,12 +109,45 @@ header {
     gap: 20px;
 }
 
-ul a{
+ul a {
     text-decoration: none;
     color: #E5E7EB;
 }
 
 .full-bleed .dark-blue {
     box-shadow: 0 0 0 100vmax #1F2937;
-    clip-path: inset(0 -100vmax); 
-  }
+    clip-path: inset(0 -100vmax);
+}
+
+.copyright {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-presentation {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.container-g {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.container-w {
+    max-width: 1280px;
+    width: 100%;
+}
+
+.wrapper-w {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
