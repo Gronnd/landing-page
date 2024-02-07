@@ -5,11 +5,206 @@
  * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
  */
 /* modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-*,::after,::before{box-sizing:border-box}html{font-family:system-ui,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';line-height:1.15;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4}body{margin:0}hr{height:0;color:inherit}abbr[title]{text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px dotted ButtonText}:-moz-ui-invalid{box-shadow:none}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+html {
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4
+}
+
+body {
+    margin: 0
+}
+
+hr {
+    height: 0;
+    color: inherit
+}
+
+abbr[title] {
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+table {
+    text-indent: 0;
+    border-color: inherit
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+select {
+    text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button
+}
+
+::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+:-moz-ui-invalid {
+    box-shadow: none
+}
+
+legend {
+    padding: 0
+}
+
+progress {
+    vertical-align: baseline
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+summary {
+    display: list-item
+}
+
 /*# sourceMappingURL=/sm/5b7c27b6a0fd11e81f813b36dc26f6049a71a06907ce03d53d65a3bfe866b576.map */
 
 /* Combinado de resets/normalize */
-:root{line-height:1.5}*{position:relative}*,*::before,*::after{box-sizing:border-box}body{margin:0;min-height:100dvh;display:flex;flex-direction:column}main{flex:1}h1,h2,h3,h4,h5,figure,p{margin:0}h1,h2,h3,h4,h5,h6{text-wrap:balance}p{text-wrap:pretty}img,video,svg{display:block;height:auto;max-width:100%}ol,ul{list-style:none;padding-inline:0}.article :where(ol,ul){all:revert}
+:root {
+    line-height: 1.5
+}
+
+* {
+    position: relative
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column
+}
+
+main {
+    flex: 1
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p {
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance
+}
+
+p {
+    text-wrap: pretty
+}
+
+img,
+video,
+svg {
+    display: block;
+    height: auto;
+    max-width: 100%
+}
+
+ol,
+ul {
+    list-style: none;
+    padding-inline: 0
+}
+
+.article :where(ol, ul) {
+    all: revert
+}
 
 
 
@@ -34,16 +229,17 @@ h1 {
 .header-link {
     font-size: 18px;
     color: #E5E7EB;
-    }
+}
 
 .header-logo {
     font-size: 24px;
     color: #F0FAF8;
 }
 
-.button, .call-to-action {
+.button,
+.call-to-action {
     color: #3882f6;
-    }
+}
 
 .info-header {
     font-size: 36px;
@@ -65,25 +261,27 @@ h1 {
 
 /* aquí empiea el formto de la pagina de gronnd */
 
-body{ background-color: #1F2937;}
+body {
+    background-color: #1F2937;
+}
 
 .main-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-db-wrapper {
+/*
+.db-wrapper {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
 }
-
-
+*/
 
 .db-wrapper {
-display: flex;
-flex-direction: row;
-justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .wrapper-g {
