@@ -354,3 +354,8 @@ ul a {
     justify-content: center;
 }
 
+.img-tittle {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
