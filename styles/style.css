@@ -224,6 +224,7 @@ h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F0FAF8;
+    margin-bottom: 0.5rem;
 }
 
 .header-link {
@@ -282,6 +283,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .wrapper-g {
@@ -328,8 +330,15 @@ ul a {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     max-width: 1280px;
     width: 100%;
+}
+
+.presentation-text {
+    margin: 10px;
+    max-width: 500px;
 }
 
 .container-g {
@@ -340,11 +349,12 @@ ul a {
 .container-w {
     max-width: 1280px;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .wrapper-w {
@@ -356,6 +366,55 @@ ul a {
 
 .img-tittle {
     width: 100%;
-    max-width: 500px;
-    height: auto;
+    max-width: 600px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    padding: 1rem;
+
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+}
+
+.card-box {
+    gap: 20px;
+    flex-direction: column;
+    border: #3882f6 3px solid;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    width: 10rem;
+    height: 10rem;
+}
+
+.white-text {
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+.card-text {
+    margin: rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    width: 8rem;
 }
