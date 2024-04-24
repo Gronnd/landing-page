@@ -246,6 +246,7 @@ h1 {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-bottom: 2rem;
 }
 
 .quote-background {
@@ -283,7 +284,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 60px;
+    margin: 0 0 20px 0;
 }
 
 .wrapper-g {
@@ -327,7 +328,7 @@ ul a {
 }
 
 .container-presentation {
-    padding: 0 50px;
+    padding: 0 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -375,10 +376,21 @@ ul a {
     max-width: 600px;
 }
 
+.white-text {
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+.card-text {
+    text-align: center;
+    margin: 0;
+    width: 160px;
+}
+
 .card {
     display: flex;
     flex-direction: column;
-    width: 12rem;
+    width: 160px;
     align-items: center;
 }
 
@@ -389,6 +401,7 @@ ul a {
     justify-content: space-between;
     gap: 20px;
     width: 90%;
+
 }
 
 .card-box {
@@ -397,20 +410,10 @@ ul a {
     border: #3882f6 3px solid;
     border-radius: 12px;
     flex-wrap: wrap;
-    width: 10rem;
-    height: 10rem;
+    width: 180px;
+    height: 160px;
 }
 
-.white-text {
-    color: #ffffff;
-    padding-bottom: 1rem;
-}
-
-.card-text {
-    margin: rem;
-    text-align: center;
-    padding: 0.5rem;
-}
 
 button {
     background-color: #3882f6;
