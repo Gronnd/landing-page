@@ -9,8 +9,8 @@ Es el primer gran proyecto sin base, prácticamente se construye de cero.
 ### ToDos
 
 - [x] Subir archivos de imagen
-- [ ] Crear base html
-- [ ] Primer formato con flexbox
+- [x] Crear base html
+- [x] Primer formato con flexbox
 - [ ] Formato final (tamaños, colores, etc.)
 
 ### Archivos de imagen
