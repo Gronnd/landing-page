@@ -51,3 +51,6 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+# Ignora la carpeta .vscode
+.vscode
