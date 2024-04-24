@@ -327,7 +327,7 @@ ul a {
 }
 
 .container-presentation {
-    padding: 20px;
+    padding: 0 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -344,7 +344,7 @@ ul a {
 .container-g {
     max-width: 1000px;
     width: 100%;
-    margin: 6rem 25rem;
+    margin: 6rem 20px;
     font-weight: lighter;
     line-height: 2.5rem;
 
@@ -352,11 +352,10 @@ ul a {
 }
 
 
-
 .container-w {
     max-width: 1280px;
     width: 100%;
-    padding: 50px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -380,13 +379,12 @@ ul a {
     display: flex;
     flex-direction: column;
     width: 12rem;
-    padding: 1rem;
-
-
+    align-items: center;
 }
 
 .card-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
@@ -424,4 +422,19 @@ button {
     display: inline-block;
     border: none;
     width: 8rem;
+}
+
+.lb-container {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.wrap-call {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    padding: 35px;
 }
