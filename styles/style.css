@@ -23,72 +23,18 @@ body {
     margin: 0
 }
 
-hr {
-    height: 0;
-    color: inherit
-}
-
-abbr[title] {
-    text-decoration: underline dotted
-}
-
-b,
-strong {
-    font-weight: bolder
-}
-
-code,
-kbd,
-pre,
-samp {
-    font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
-    font-size: 1em
-}
-
-small {
-    font-size: 80%
-}
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline
-}
-
-sub {
-    bottom: -.25em
-}
-
-sup {
-    top: -.5em
-}
-
-table {
-    text-indent: 0;
-    border-color: inherit
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
+button {
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
     margin: 0
 }
 
-button,
-select {
+button {
     text-transform: none
 }
 
 [type=button],
-[type=reset],
-[type=submit],
 button {
     -webkit-appearance: button
 }
@@ -106,22 +52,9 @@ button {
     box-shadow: none
 }
 
-legend {
-    padding: 0
-}
-
-progress {
-    vertical-align: baseline
-}
-
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
     height: auto
-}
-
-[type=search] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px
 }
 
 ::-webkit-search-decoration {
@@ -131,10 +64,6 @@ progress {
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
     font: inherit
-}
-
-summary {
-    display: list-item
 }
 
 /*# sourceMappingURL=/sm/5b7c27b6a0fd11e81f813b36dc26f6049a71a06907ce03d53d65a3bfe866b576.map */
@@ -167,20 +96,12 @@ main {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-figure,
 p {
     margin: 0
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
     text-wrap: balance
 }
 
@@ -188,15 +109,12 @@ p {
     text-wrap: pretty
 }
 
-img,
-video,
-svg {
+img {
     display: block;
     height: auto;
     max-width: 100%
 }
 
-ol,
 ul {
     list-style: none;
     padding-inline: 0
@@ -211,8 +129,6 @@ ul {
 /*CSS normal */
 
 
-article,
-aside,
 footer,
 header,
 nav,
@@ -227,19 +143,9 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
-.header-link {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
 .header-logo {
     font-size: 24px;
     color: #F0FAF8;
-}
-
-.button,
-.call-to-action {
-    color: #3882f6;
 }
 
 .info-header {
@@ -247,10 +153,6 @@ h1 {
     font-weight: 800;
     color: #1F2937;
     margin-bottom: 2rem;
-}
-
-.quote-background {
-    background-color: #E5E7EB;
 }
 
 .quote {
@@ -315,11 +217,6 @@ ul a {
     color: #E5E7EB;
 }
 
-.full-bleed .dark-blue {
-    box-shadow: 0 0 0 100vmax #1F2937;
-    clip-path: inset(0 -100vmax);
-}
-
 .copyright {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -328,7 +225,7 @@ ul a {
 }
 
 .container-presentation {
-    padding: 0 10px;
+    padding: 4rem 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -348,8 +245,6 @@ ul a {
     margin: 6rem 20px;
     font-weight: lighter;
     line-height: 2.5rem;
-
-
 }
 
 
@@ -427,17 +322,48 @@ button {
     width: 8rem;
 }
 
-.lb-container {
-    padding: 20px;
+.call-wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #ffffff;
 }
 
-.wrap-call {
+.container-call {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    padding: 35px;
+    justify-content: space-around;
+    padding: 3rem;
+    background-color: #3882f6;
+    border-radius: .3rem;
+    margin: 4rem 10px;
+    max-width: 1280px;
+    width: 100%;
+
+
+}
+
+.container-call .tittle {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container-call .text {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 1rem;
+}
+
+.container-call button {
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    width: 8rem;
+    border: 2px solid #ffffff;
+    margin: 1rem 0;
 }
